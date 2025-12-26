@@ -1,0 +1,19 @@
+/* TradingView theme colors */
+:root {
+  --tv-bg-primary: #131722;
+  --tv-bg-secondary: #1E222D;
+  --tv-border: #2A2E39;
+  --tv-text-primary: #D1D4DC;
+  --tv-text-secondary: #787B86;
+  --tv-accent: #2962FF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
