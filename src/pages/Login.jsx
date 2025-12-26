@@ -24,7 +24,7 @@ export const Login = () => {
         setLoading(false);
 
         if (result.success) {
-            navigate('/');
+            navigate('/dashboard');
         } else {
             setError(result.error || 'Login failed');
         }
